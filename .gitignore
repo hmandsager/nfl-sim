@@ -122,3 +122,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ignore data
+data/*
+
+# Ignore node_modules, which is installed by npm or yarn
+src/frontend/node_modules/
+# Ignore local storage of bower components
+bower_components/
+# Ignore local storage of npm packages
+npm-debug.log
